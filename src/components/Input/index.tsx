@@ -1,7 +1,7 @@
 import { CSSProperties } from 'react'
 import Styles from './Input.module.scss'
 
-type InputProps = {
+export type InputProps = {
   variant?: 'primary' | 'secondary'
   placeholder?: string
   value?: string
